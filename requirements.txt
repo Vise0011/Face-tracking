@@ -1,0 +1,6 @@
+#Project Requirements
+mediapipe
+opencv-python
+numpy
+pyvts
+asyncio
