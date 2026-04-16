@@ -1,0 +1,11 @@
+import pyvts
+import asyncio
+
+async def main():
+    vts = pyvts.vts()
+    await vts.connect()
+    # Implement what you want to do
+    await vts.close()
+
+if __name__ == "__main__":
+    asyncio.run(main())
